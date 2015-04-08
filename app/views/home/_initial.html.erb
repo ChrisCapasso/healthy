@@ -1,0 +1,68 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="" class="navbar-brand">NYC-SRC</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+		<% if user_signed_in? %>
+			<a href="#Signin" class="btn btn-info navbar-btn navbar-right">Sign Out</a>
+	
+		<% else %>
+
+			<a href="#Signin" class="btn btn-info navbar-btn navbar-right">Sign in</a>
+		<% end %>
+
+			<ul class="nav navbar-nav">
+				<li><a href="#Map">Map</a></li>
+				<li><a href="#Stats">Stats</a></li>
+				<li><a href="#Info">Articles</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="images">
+<div class="container">
+	<div class="row">
+		<div class="com-md-12">
+			<h1 id="name_content">NYC-SRC</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 hidden-sm hidden-xs" id="name_content1">
+			<h1 style="text-align: center">STATUS</h1> 
+			<div class="pic1">
+				<div class="text">
+					<p><h4>Know your status</h4></p>
+					<p> Search for free and low-cost health clinics in New York by borough</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 hidden-sm hidden-xs" id="name_content1">
+			<h1 style="text-align: center">RESOURCES</h1>
+			<div class="pic2">
+				<div class="text">
+					<p><h4>Be Informed</h4></p>
+					<p>Learn about latest statistics and information surrounding health in New York City</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 hidden-sm hidden-xs" id="name_content1">
+			<h1 style="text-align: center">CONNECTIONS</h1>
+			<div class="pic3">
+				<div class="text">
+					<p><h4>Stay Connected</h4></p>
+					<p>Join an online community where you can post articles and comment on current events</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
